@@ -19,7 +19,7 @@ set :linked_dirs, fetch(:linked_dirs, []).push(
   'public/system'
 )
 
-set :cr_email, "{fetch(:application)}.dev@ekohe.com"
+set :cr_email, "#{fetch(:application)}.dev@ekohe.com"
 set :cr_redmine_key, 'REDMINE_KEY'
 set :cr_redmine_url, "https://red.ekohe.com/projects/REDMINE_PROJECT_NAME/wiki/revisions_#{fetch(:stage)}.xml"
 
