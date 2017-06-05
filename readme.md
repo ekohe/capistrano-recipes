@@ -1,5 +1,13 @@
 ### capistrano-recipes
 
+#### Installation
+
+Add to your gemfile
+
+```
+gem 'capistrano_recipes', require: false, git: 'https://github.com/ekohe/capistrano-recipes'
+```
+
 Provide recipes:generate rake task to generate capistrano recipes for deployment.
 
 ```
