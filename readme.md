@@ -1,14 +1,7 @@
 ### capistrano-recipes
 
-#### Installation
-
-Add to your gemfile
-
-```
-gem 'capistrano_recipes', require: false, git: 'https://github.com/ekohe/capistrano-recipes'
-```
-
-Provide recipes:generate rake task to generate capistrano recipes for deployment.
+#### About
+Provides recipes:generate rake task to generate capistrano recipes for deployment.
 
 ```
 rake recipes:generate APPLICATION=application_name SERVER=server_address RUBY=ruby_version REDMINE=redmine_project_name KEY=redmine_key
@@ -37,3 +30,11 @@ prefill everything accordingly and modify your Gemfile adding:
 1. [capistrano-revisions](https://github.com/maverick9000/capistrano-revisions) gem
 
 It will also modify you Capfile to enable capistrano-revisions
+
+#### Installation
+
+Add to your gemfile
+
+```
+gem 'capistrano_recipes', require: false, git: 'https://github.com/ekohe/capistrano-recipes'
+```
